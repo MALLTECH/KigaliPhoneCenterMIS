@@ -7,7 +7,8 @@
 
  $ERRORS = isset($_SESSION['errors']) ? $_SESSION['errors'] : [];
  $NOTICES = isset($_SESSION['notices']) ? $_SESSION['notices'] : [];
- 
+ $THEME = "dark";
  unset($_SESSION['errors']);
  unset($_SESSION['notices']);
+ 
 ?>

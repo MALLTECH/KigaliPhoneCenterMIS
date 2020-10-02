@@ -1,0 +1,134 @@
+.login-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg_gray_color;
+
+    .profil {
+        height: 460px;
+        border-radius: 0px;
+        text-align: center;
+    }
+    .profil img {
+        margin-top: 20px;
+        border-radius: 20%;
+        height: 110px;
+        width: 110px;
+    }
+    #loginContent {
+        background-color: $bg_white_color;
+        border: 1px solid $border_color;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .formClass {
+        margin-top: -300px;
+    }
+    .password {
+        margin-top:20px;
+    }
+    .btn-block {
+        margin-top: 30px;
+        background-color: $buttons_color;
+        border-radius: 0px;
+        color: $white_color;
+        cursor: pointer;
+
+        &:hover {
+          color: $white_color;
+          transform: scale(1.02);
+        }
+    }
+
+    samp {
+        margin-top: 20px;
+        font-size: 11px;
+        padding-bottom: 20px;
+        color: $text_color_1;
+        text-decoration: none;
+    
+    }
+    samp a{
+     color:$buttons_color;
+     text-decoration: none;
+    }
+
+    label {
+        color: $text_color_1;
+        text-align: left;
+        
+    }
+
+    #form-controlLogin {
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    #form-controlLoginP {
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    .alert{
+        color:$alert_color;
+        font-size:10px;
+        margin-bottom: -30px;
+        margin-left: -20px !important; 
+        margin-top:-10px !important; 
+    }
+}
+.logof-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg_gray_color;
+    .profil-image {
+        text-align: center;
+        margin-top: -100px;
+    }
+    .profil-image img {
+        margin-top: 20px;
+        border-radius: 50%;
+        border: 5px solid $accent_color;
+        height: 140px;
+        width: 140px;
+    }
+    .logOfForm {
+        margin-top: 30px;
+    }
+    .btn-block {
+        margin-top: 30px;
+        background-color: $buttons_color;
+        border-radius: 0px;
+        color: $white_color;
+        cursor: pointer;
+
+        &:hover {
+          color: $white_color;
+          transform: scale(1.02);
+        }
+    }
+    samp {
+        margin-top: 20px;
+        font-size: 11px;
+        padding-bottom: 20px;
+        color: $text_color_1;
+        text-decoration: none;
+    }
+    .alert{
+        color:$alert_color;
+        font-size:10px;
+        margin-bottom: -30px;
+        margin-left: -20px !important; 
+        margin-top:-10px !important; 
+    }
+    #form-controlLogof {
+        box-shadow: none;
+        border-radius: 0%;
+    }
+    #displayName{
+        color: $text_color_1;
+    }
+}

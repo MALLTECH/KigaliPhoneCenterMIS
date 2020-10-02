@@ -4,8 +4,10 @@
   "description": "* if you don't have composer installed in your pc, please download it here https://getcomposer.org/ and install it.\r * clone this Repo https://github.com/MALLTECH/KigaliPhoneCenterMIS.git\r * Navidate to project directory and the install phpdotenv with this command `composer require vlucas/phpdotenv`\r * Open your MySQL Database and the create database with name `kigaliphonecenter`\r * Now create `.env` file in project directory and then fill it by using sample data in `env.sample` file, with your correct db configuration.",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch assets/scss/main.scss:assets/css/style.css"
+    "sass": "sass --watch assets/scss/mainLight.scss:assets/css/themeLight.css",
+    "sass2": "sass --watch assets/scss/mainDark.scss:assets/css/themeDark.css"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MALLTECH/KigaliPhoneCenterMIS.git"

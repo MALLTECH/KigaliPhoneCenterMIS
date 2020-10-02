@@ -1,0 +1,129 @@
+.login-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+.login-section .profil {
+  height: 460px;
+  border-radius: 0px;
+  text-align: center;
+}
+.login-section .profil img {
+  margin-top: 20px;
+  border-radius: 20%;
+  height: 110px;
+  width: 110px;
+}
+.login-section #loginContent {
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.login-section .formClass {
+  margin-top: -300px;
+}
+.login-section .password {
+  margin-top: 20px;
+}
+.login-section .btn-block {
+  margin-top: 30px;
+  background-color: #1786D4;
+  border-radius: 0px;
+  color: white;
+  cursor: pointer;
+}
+.login-section .btn-block:hover {
+  color: white;
+  transform: scale(1.02);
+}
+.login-section samp {
+  margin-top: 20px;
+  font-size: 11px;
+  padding-bottom: 20px;
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.login-section samp a {
+  color: #1786D4;
+  text-decoration: none;
+}
+.login-section label {
+  color: #a7a7a7;
+  text-align: left;
+}
+.login-section #form-controlLogin {
+  box-shadow: none;
+  border-radius: 0%;
+}
+.login-section #form-controlLoginP {
+  box-shadow: none;
+  border-radius: 0%;
+}
+.login-section .alert {
+  color: #e70000;
+  font-size: 10px;
+  margin-bottom: -30px;
+  margin-left: -20px !important;
+  margin-top: -10px !important;
+}
+
+.logof-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+.logof-container .profil-image {
+  text-align: center;
+  margin-top: -100px;
+}
+.logof-container .profil-image img {
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 5px solid #F8E213;
+  height: 140px;
+  width: 140px;
+}
+.logof-container .logOfForm {
+  margin-top: 30px;
+}
+.logof-container .btn-block {
+  margin-top: 30px;
+  background-color: #1786D4;
+  border-radius: 0px;
+  color: white;
+  cursor: pointer;
+}
+.logof-container .btn-block:hover {
+  color: white;
+  transform: scale(1.02);
+}
+.logof-container samp {
+  margin-top: 20px;
+  font-size: 11px;
+  padding-bottom: 20px;
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.logof-container .alert {
+  color: #e70000;
+  font-size: 10px;
+  margin-bottom: -30px;
+  margin-left: -20px !important;
+  margin-top: -10px !important;
+}
+.logof-container #form-controlLogof {
+  box-shadow: none;
+  border-radius: 0%;
+}
+.logof-container #displayName {
+  color: #a7a7a7;
+}
+
+/*# sourceMappingURL=themeLight.css.map */
