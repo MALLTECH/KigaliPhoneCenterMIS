@@ -1,8 +1,7 @@
-
 .table-container {
     .btn {
         width: 100px;
-        color: #FFFFFF;
+        color:$white_color;
         text-transform: capitalize;
     }
     .badge {
@@ -14,22 +13,22 @@
         width: 80px;
     }
     .badge-warning {
-        color: #FFF;
+        color: $white_color;
         &:hover {
-            background: #ffc107;
-            color: #fff;
+            background: $color_warning;
+            color: $white_color;
         }
     }
     .badge-primary {
         &:hover {
-            background: #3366ff;
-            color: #fff;
+            background: $color_blue;
+            color:$white_color;
         }
     }
     .badge-success {
         &:hover {
-            background: #28a745;
-            color: #fff;
+            background: $color_green;
+            color:$white_color;
         }
     }
     .badge-id {
@@ -39,15 +38,14 @@
     .table {
         text-align: center;
         font-family: sans-serif;
-        -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.1);
-        box-shadow: 0 5px 10px rgba(0,0,0,.1);
+        -webkit-box-shadow: 0 5px 10px $color_shadow;
+        box-shadow: 0 5px 10px $color_shadow;
         -webkit-transition: .5s;
         transition: .5s;
         margin: 0 auto;
         font-size: 14px;
         th {
             padding: 15px;
-            color: rgb(65, 63, 63) !important;
             font-weight: 550;
         }
         td{
@@ -70,13 +68,13 @@
           
         }
         .btn {
-            color: #FFF;
+            color:$white_color;
         }
         .status-warning {
-            color: #ffc107;
+            color:$color_warning;
         }
         .status-primary {
-            color: #1fad42;
+            color:$color_green;
         }
     }
     

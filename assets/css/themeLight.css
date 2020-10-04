@@ -104,7 +104,7 @@
 
 .table-container .btn {
   width: 100px;
-  color: #FFFFFF;
+  color: white;
   text-transform: capitalize; }
 .table-container .badge {
   margin: 0 auto;
@@ -113,16 +113,16 @@
   border-radius: 10em;
   width: 80px; }
 .table-container .badge-warning {
-  color: #FFF; }
+  color: white; }
   .table-container .badge-warning:hover {
-    background: #ffc107;
-    color: #fff; }
+    background: #ffc105;
+    color: white; }
 .table-container .badge-primary:hover {
   background: #3366ff;
-  color: #fff; }
+  color: white; }
 .table-container .badge-success:hover {
-  background: #28a745;
-  color: #fff; }
+  background: #29a847;
+  color: white; }
 .table-container .badge-id {
   border-radius: none;
   width: 100%; }
@@ -137,7 +137,6 @@
   font-size: 14px; }
   .table-container .table th {
     padding: 15px;
-    color: #413f3f !important;
     font-weight: 550; }
   .table-container .table td > div {
     height: 45px;
@@ -152,10 +151,10 @@
       -webkit-line-clamp: 1;
       -webkit-box-orient: vertical; }
   .table-container .table .btn {
-    color: #FFF; }
+    color: white; }
   .table-container .table .status-warning {
-    color: #ffc107; }
+    color: #ffc105; }
   .table-container .table .status-primary {
-    color: #1fad42; }
+    color: #29a847; }
 
 /*# sourceMappingURL=themeLight.css.map */
