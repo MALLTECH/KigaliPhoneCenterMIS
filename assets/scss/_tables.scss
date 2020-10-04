@@ -1,0 +1,84 @@
+
+.table-container {
+    .btn {
+        width: 100px;
+        color: #FFFFFF;
+        text-transform: capitalize;
+    }
+    .badge {
+        margin: 0 auto;
+        padding: 10px;
+    }
+    .badge-status {
+        border-radius: 10em;
+        width: 80px;
+    }
+    .badge-warning {
+        color: #FFF;
+        &:hover {
+            background: #ffc107;
+            color: #fff;
+        }
+    }
+    .badge-primary {
+        &:hover {
+            background: #3366ff;
+            color: #fff;
+        }
+    }
+    .badge-success {
+        &:hover {
+            background: #28a745;
+            color: #fff;
+        }
+    }
+    .badge-id {
+        border-radius: none;
+        width: 100%;
+    }
+    .table {
+        text-align: center;
+        font-family: sans-serif;
+        -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.1);
+        box-shadow: 0 5px 10px rgba(0,0,0,.1);
+        -webkit-transition: .5s;
+        transition: .5s;
+        margin: 0 auto;
+        font-size: 14px;
+        th {
+            padding: 15px;
+            color: rgb(65, 63, 63) !important;
+            font-weight: 550;
+        }
+        td{
+          > div{
+              height: 45px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: row;
+            
+            span{
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+
+            }
+          }
+          
+        }
+        .btn {
+            color: #FFF;
+        }
+        .status-warning {
+            color: #ffc107;
+        }
+        .status-primary {
+            color: #1fad42;
+        }
+    }
+    
+    
+}
