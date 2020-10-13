@@ -1,0 +1,99 @@
+.content {
+  box-sizing: border-box;
+  flex-grow: 1;
+  background-color: #f8f8ff;
+
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: $white_color;
+    height: 60px;
+    border-bottom: .5px solid $border_color;
+
+    .menu-icon {
+      color: $nav_menu_icon_color;
+      font-size: 20px;
+      cursor: pointer;
+      border: 0;
+      background-color: transparent;
+      outline: none;
+    }
+
+
+    .profile-sec {
+      cursor: pointer;
+    }
+
+    .profile-pic {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 20px;
+      color: #fff;
+      background-color: rgb(17, 97, 255);
+      text-align: center;
+      line-height: 35px;
+      border: 2px solid rgb(216, 216, 216);
+      box-sizing: border-box;
+    }
+
+  }
+
+  main {
+    height: calc(100vh - 120px);
+
+    .task-bar-sec {
+      width: 300px;
+      position: relative;
+      border-left: .5px solid $border_color;
+      background-color: $white_color;
+
+      .chart-content {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        border-top: .5px solid $border_color;
+        clip: rect(0, 550px, 340px, 0);
+
+        #chatContainer {
+          border-radius: 20px;
+          // border: 1px solid red;
+          width: 150px;
+        }
+      }
+    }
+
+    .content-sec {
+      // padding: 20px;
+      box-sizing: border-box;
+
+      // border: 1px solid green;
+
+      .recent-orders-sec {
+        box-sizing: border-box;
+        width: 90%;
+        border: .5px solid $border_color;
+        bottom: 30px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 368.5px;
+        background-color: $table_color_bg;
+      }
+    }
+  }
+  footer {
+    border-top: .5px solid $border_color;
+    background-color: $white_color;
+  }
+}
+
+.section-header {
+  // border-top: .5px solid $border_color;
+  border-bottom: .5px solid $border_color;
+  span {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}

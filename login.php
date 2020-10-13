@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <?php require_once "meta.php"?>
-    <?php require_once "script.php"?>
     <title> login</title>
   </head>
   <body>
@@ -33,5 +32,6 @@
         </div>
       </div>
     </section>
+      <?php require_once "script.php"?>
   </body>
 </html>
