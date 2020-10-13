@@ -1,0 +1,122 @@
+.left-nav {
+  width: 300px;
+  border-right: 0.5px solid $border_color;
+
+  .header {
+    width: 300px;
+    padding: 10 px;
+    box-sizing: border-box;
+
+    img {
+      height: 100px;
+      border-radius: 5px;
+    }
+  }
+
+  .nav-content {
+     width: 300px;
+    ul {
+      list-style: none;
+      margin: 0;
+      width: 100%;
+      padding: 0;
+
+      li {
+        list-style: none;
+        margin: 0;
+
+        a {
+          height: 60px;
+          display: flex;
+          cursor: pointer;
+          align-items: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          border-bottom: 0.5px solid $border_color;
+          color: $left_nav_text_color;
+
+          div {
+
+            // border: 1px solid yellow;
+            // &:nth-of-type(1),
+            &:nth-of-type(3) {
+              display: flex;
+              flex-grow: 1;
+              justify-content: center;
+              align-items: center;
+            }
+
+            &:nth-of-type(2) {
+              flex-grow: 3;
+              padding-left: 25px;
+            }
+          }
+
+          &:hover {
+            background-color: $left_nav_hover;
+          }
+        }
+
+        .menu-item.sub {
+          background-color: $sub_menu_color;
+          font-size: 15px;
+          padding-left: 65px;
+        }
+
+        .active {
+          background-color: $primary_color;
+          color: $white_color;
+          
+          .icon {
+            filter: $nav_item_icon_color_filter_active;
+          }
+         
+          &:hover {
+            background-color: lighten($primary_color, 10%);
+          }
+        }
+      }
+    }
+  }
+
+  @keyframes sub-menu-close {
+    from {
+      display: inline;
+    }
+
+    to {
+      height: 0;
+      display: none;
+    }
+  }
+
+  @keyframes sub-menu-open {
+    from {
+      height: 0;
+      display: inline;
+    }
+
+    to {
+      height: 150px;
+      display: none;
+    }
+  }
+
+  .sub-close {
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: sub-menu-close 1s forwards;
+  }
+
+  .sub-open {
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+    animation: sub-menu-open 1s forwards;
+  }
+
+  #orders-submenu,
+  #products-submenu {
+    overflow: hidden;
+    height: 0;
+  }
+}

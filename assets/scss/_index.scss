@@ -1,0 +1,21 @@
+html body {
+  overflow: hidden;
+}
+.index-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.left-nav-icon  {
+  width: 30px;
+  fill: $nav_menu_icon_color; 
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  filter: $nav_item_icon_color_filter;
+}

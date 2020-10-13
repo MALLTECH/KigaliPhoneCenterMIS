@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 
 .sass-cache/
 
 
 composer.lock
+=======
+.sass-cache/
+.vscode/
+>>>>>>> 13ed745... Add Left Navigation with open and close animatiom
 .env

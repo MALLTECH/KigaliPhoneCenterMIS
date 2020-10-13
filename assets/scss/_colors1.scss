@@ -4,8 +4,16 @@ $buttons_color: #1786D4;
 $accent_color: #F8E213;
 $alert_color:rgb(231, 0, 0);
 
+$nav_menu_icon_color: rgb(155, 155, 155);
+$nav_item_icon_color_filter: invert(52%) sepia(79%) saturate(2504%) hue-rotate(159deg) brightness(91%) contrast(101%);
+$nav_item_icon_color_filter_active: invert(100%) sepia(100%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);
+
+$table_color_bg: white;
 $border_color: #e3e3e3;
 $text_color_1: #a7a7a7;
+$sub_menu_color: rgb(253, 253, 253);
+$left_nav_text_color: #6C6C6C;
+$left_nav_hover: rgb(243, 243, 243);
 
 $white_color: white;
 $bg_gray_color: #fcfcfc;
@@ -19,3 +27,10 @@ $color_blue: hsl(225, 100%, 60%);
 $color_green: hsl(134, 61%, 41%);
 $color_shadow: rgba(0,0,0,.1);
 
+
+
+// $color: #1064a0,
+//       #1a8ee0,
+//       #35a5f5,
+//       #2fa9ff,
+//       #5aa8df;
